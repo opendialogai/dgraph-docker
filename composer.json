@@ -1,0 +1,16 @@
+{
+  "name": "opendialogai/dgraph-docker",
+  "description": "The OpenDialog DGraph Docker compose file",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Stuart Haigh",
+      "email": "stuarth@greenshootlabs.com"
+    },
+    {
+      "name": "Ronald Ashri",
+      "email": "ronalda@greenshootlabs.com"
+    }
+  ]
+}
