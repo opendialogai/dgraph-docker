@@ -25,7 +25,7 @@ services:
       - 8080:8080
       - 9080:9080
     restart: on-failure
-    command: dgraph alpha --security token=${DGRAPH_AUTH_TOKEN} --security whitelist=0.0.0.0/0 --my=server:7080 --zero=zero:5080
+    command: dgraph alpha --security token=${DGRAPH_AUTH_TOKEN};whitelist=0.0.0.0/0 --my=server:7080 --zero=zero:5080
 
 volumes:
   dgraph:
